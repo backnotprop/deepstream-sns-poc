@@ -7,8 +7,6 @@ let deepstreamClient = require('deepstream.io-client-js');
  * 
  */
 
-let ds = deepstreamClient('localhost:6021').login({}, createHttpServer);
-
 AWS.config.update({
 	"secretAccessKey": ".",
 	"sessionToken": ".",
@@ -96,3 +94,4 @@ const createHttpServer = () => {
 
 }
 
+let ds = deepstreamClient('localhost:6021').login({}, createHttpServer);
