@@ -1,6 +1,6 @@
-import AWS from 'aws-sdk';
-import http from 'http';
-import deepstreamClient from 'deepstream.io-client-js';
+let AWS = require('aws-sdk');
+let http = require('http');
+let deepstreamClient = require('deepstream.io-client-js');
 
 /**
  * Configs

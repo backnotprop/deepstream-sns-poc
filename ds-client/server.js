@@ -1,4 +1,4 @@
-import DeepstreamServer from 'deepstream.io';
+let DeepstreamServer = require('deepstream.io');
 
 let server = new DeepstreamServer();
 
